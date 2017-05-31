@@ -42,8 +42,8 @@ Use CW Quick Blocks to:
 
 **Parameters Explained**
 
-* **Template Override:** A template override is an override of the default CW Quick Blocks layout file that you create within your template. This parameter will list the available template overrides. Note that if you add an override to your template called default.php, you don't have to select an override here because the system uses your template override automatically.
-* **Position Prefix:** Each module position loaded via com_cw_quickblocks will be named with the pattern {Position Prefix}_{Row}_{Column}. So, for example, if your position prefix is "blocks", then the module position in row 1, column 1 will be named blocks_1_1.
+* **Template Override:** A template override is an override of the default CW Quick Blocks layout file that you create within your template. This parameter will list the available template overrides. Note that if you add an override to your template called `default.php`, you don't have to select an override here because the system uses your template override automatically.
+* **Position Prefix:** Each module position loaded via com_cw_quickblocks will be named with the pattern `{Position Prefix}_{Row}_{Column}`. So, for example, if your position prefix is "blocks", then the module position in row 1, column 1 will be named blocks_1_1.
 * **Number of Rows:** Think of the module positions loaded in a com_cw_quickblocks page as the cells an Excel spreadsheet. The component will loop through the number of rows and columns set in the parameters to load the positions. This sets the number of rows to use.
 * **Number of Columns:** This sets the number of columns to use.
 * **Module Chrome:** This sets the module chrome style to use when rendering the mdoules in the com_cw_quickblocks layout.
@@ -52,10 +52,10 @@ Use CW Quick Blocks to:
 
 If you want to override the default layout, you have to create a template override as follows:
 
-1. Copy `/components/com_cw_quickblocks/views/blocks/tmpl/default.php to /templates/{YOUR_TEMPLATE}/html/com_cw_quickblocks/blocks/default.php`
+1. Copy `/components/com_cw_quickblocks/views/blocks/tmpl/default.php` to `/templates/{YOUR_TEMPLATE}/html/com_cw_quickblocks/blocks/default.php`
 2. Modify as needed
 
-_Note: If you want to have multiple template overrides, you can create multiple copies of default.php, but give it different names. Each new override will be available in as an option in the Template Override parameter in the menu item._
+_Note: If you want to have multiple template overrides, you can create multiple copies of `default.php`, but give it different names. Each new override will be available in as an option in the Template Override parameter in the menu item._
 
 ### CW Quick Blocks Module
 
@@ -75,7 +75,7 @@ _Note: If you want to have multiple template overrides, you can create multiple 
 
 If you want to override any of the 4 standard layouts, you have to create a template override as follows:
 
-1. Copy `/modules/mod_cw_quickblocks/{FILENAME}.php to /templates/{YOUR_TEMPLATE}/html/mod_cw_quickblocks/{FILENAME}.php`
+1. Copy `/modules/mod_cw_quickblocks/{FILENAME}.php` to `/templates/{YOUR_TEMPLATE}/html/mod_cw_quickblocks/{FILENAME}.php`
 2. Modify as needed
 
-_Note: If you want to have multiple template overrides, you can create multiple copies of {FILENAME}.php, but give it different names. Each new override will be available in as an option in the Alternate Layout parameter in the module._
+_Note: If you want to have multiple template overrides, you can create multiple copies of `{FILENAME}.php`, but give it different names. Each new override will be available in as an option in the Alternate Layout parameter in the module._
