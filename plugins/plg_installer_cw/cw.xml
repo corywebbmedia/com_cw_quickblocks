@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="installer" method="upgrade">
+    <name>plg_installer_cw</name>
+    <author>Cory Webb</author>
+    <creationDate>January 2016</creationDate>
+    <copyright>Copyright (C) 2016 Cory Webb Media, LLC. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <authorEmail>joomla@corywebbmedia.com</authorEmail>
+    <authorUrl>http://corywebbmedia.com/joomla-extensions</authorUrl>
+    <version>1.0.0</version>
+    <description>PLG_INSTALLER_CW_XML_DESCRIPTION</description>
+    <files>
+        <filename plugin="cw">cw.php</filename>
+    </files>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.plg_installer_cw.ini</language>
+        <language tag="en-GB">en-GB/en-GB.plg_installer_cw.sys.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="dlid" type="text"
+                    default=""
+                    description="PLG_INSTALLER_CW_DLID_DESC"
+                    label="PLG_INSTALLER_CW_DLID_LABEL" />
+            </fieldset>
+        </fields>
+    </config>
+
+    <updateservers>
+        <server type="extension" name="CW Installer Plugin Updates"><![CDATA[https://corywebbmedia.com/cw-installer-plugin-update-stream/?view=update&dummy=extension.xml]]></server>
+    </updateservers>
+</extension>

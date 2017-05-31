@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_CW_QUICKBLOCKS_TITLE_VIEW_Blocks" option="Blocks">
+        <message>
+                        <![CDATA[COM_CW_QUICKBLOCKS_TITLE_VIEW_BLOCKS_DESC]]>
+        </message>
+	</layout>
+
+    <fields name="params">
+        <fieldset name="basic"
+            label="COM_CW_QUICKBLOCKS_SETTINGS_LABEL">
+
+            <field name="layout" type="componentlayout" extension="com_cw_quickblocks" view="blocks" useglobal="true"
+                label="COM_CW_QUICKBLOCKS_FIELD_LAYOUT_LABEL"
+                description="COM_CW_QUICKBLOCKS_FIELD_LAYOUT_DESC" />
+
+            <field name="position_prefix" type="text" default="blocks"
+              label="COM_CW_QUICKBLOCKS_FIELD_PREFIX_LABEL"
+              description="COM_CW_QUICKBLOCKS_FIELD_PREFIX_DESC" />
+
+            <field name="row_count" type="text" default="1"
+              label="COM_CW_QUICKBLOCKS_FIELD_ROWS_LABEL"
+              description="COM_CW_QUICKBLOCKS_FIELD_ROWS_DESC" />
+
+            <field name="column_count" type="text" default="1"
+              label="COM_CW_QUICKBLOCKS_FIELD_COLUMNS_LABEL"
+              description="COM_CW_QUICKBLOCKS_FIELD_COLUMNS_DESC" />
+
+            <field name="style" type="chromestyle"
+              label="COM_CW_QUICKBLOCKS_FIELD_STYLE_LABEL"
+              description="COM_CW_QUICKBLOCKS_FIELD_STYLE_DESC" />
+
+        </fieldset>
+    </fields>
+</metadata>

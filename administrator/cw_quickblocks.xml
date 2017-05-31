@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+    <name>com_cw_quickblocks</name>
+    <creationDate>November 2015</creationDate>
+    <copyright>Copyright (C) 2015-2016 Cory Webb Media, LLC. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <author>Cory Webb</author>
+    <authorEmail>cory@corywebbmedia.com</authorEmail>
+    <authorUrl>http://corywebbmedia.com/joomla-extensions</authorUrl>
+    <version>1.0.1</version>
+    <description>COM_CW_QUICKBLOCKS_XML_DESCRIPTION</description>
+
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>cw_quickblocks.php</filename>
+        <filename>controller.php</filename>
+        <filename>helper.php</filename>
+        <filename>router.php</filename>
+        <folder>views</folder>
+    </files>
+    <languages folder="languages/site">        
+			<language tag="en-GB">en-GB/en-GB.com_cw_quickblocks.ini</language>
+    </languages>
+    <administration>
+        <menu>COM_CW_QUICKBLOCKS</menu>
+        <files folder="administrator">
+            <filename>access.xml</filename>
+            <filename>config.xml</filename>
+            <filename>controller.php</filename>
+            <filename>index.html</filename>
+            <filename>cw_quickblocks.php</filename>
+            <folder>assets</folder>
+            <folder>views</folder>
+        </files>
+        <languages folder="languages/administrator">
+            
+			<language tag="en-GB">en-GB/en-GB.com_cw_quickblocks.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_cw_quickblocks.sys.ini</language>
+        </languages>
+    </administration>
+
+    <scriptfile>script.cw_quickblocks.php</scriptfile>
+
+    <updateservers>
+        <server type="extension" name="CW Quick Blocks Component Updates"><![CDATA[https://corywebbmedia.com/cw-quick-blocks-component-update-stream/?view=update&dummy=extension.xml]]></server>
+    </updateservers>
+    
+</extension>
