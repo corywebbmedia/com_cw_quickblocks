@@ -6,8 +6,8 @@
     <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <author>Cory Webb</author>
     <authorEmail>cory@corywebbmedia.com</authorEmail>
-    <authorUrl>http://corywebbmedia.com/joomla-extensions</authorUrl>
-    <version>1.0.1</version>
+    <authorUrl>https://cwextensions.com</authorUrl>
+    <version>1.0.2</version>
     <description>COM_CW_QUICKBLOCKS_XML_DESCRIPTION</description>
 
     <files folder="site">
@@ -42,7 +42,7 @@
     <scriptfile>script.cw_quickblocks.php</scriptfile>
 
     <updateservers>
-        <server type="extension" name="CW Quick Blocks Component Updates"><![CDATA[https://corywebbmedia.com/cw-quick-blocks-component-update-stream/?view=update&dummy=extension.xml]]></server>
+        <server type="extension" name="CW Quick Blocks Component Updates"><![CDATA[https://cwextensions.com/cw-quick-blocks-component-update-stream/?view=update&dummy=extension.xml]]></server>
     </updateservers>
     
 </extension>
